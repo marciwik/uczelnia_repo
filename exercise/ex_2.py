@@ -45,3 +45,14 @@ print("Pole kwadratu wynosi " + str(pole) + ", a obwód kwadratu wynosi " + str(
 
 # trapez
 # TODO
+
+a = 12
+b = 7
+c = 10
+d = 9
+h = 8
+
+pole = ((a + b) * h ) / 2
+obwod = a + b + c + d
+
+print("Pole trapezu wynosi " + str(pole) + ", a obwód trapez wynosi " + str(obwod) + ".")
