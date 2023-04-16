@@ -1,3 +1,5 @@
+import math
+
 # trojkat
 
 a = 40
@@ -23,7 +25,6 @@ print("Pole rombu wynosi " + str(pole) + ", a obwód rombu wynosi " + str(obwod)
 # koło 
 # TODO
 
-import math
 r = 7
 math.pi
 
@@ -32,9 +33,15 @@ obwod = 2 * math.pi * r
 
 print("Pole koła wynosi " + str(pole) + ", a obwód koła wynosi " + str(obwod) + ".")
 
-
 # kwadrat
 # TODO
+
+a = 9
+
+pole = a * a
+obwod = 4 * a
+
+print("Pole kwadratu wynosi " + str(pole) + ", a obwód kwadratu wynosi " + str(obwod) + ".")
 
 # trapez
 # TODO
