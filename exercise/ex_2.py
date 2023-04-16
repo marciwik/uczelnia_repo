@@ -19,3 +19,22 @@ pole = a * h
 obwod = 4 * a
 
 print("Pole rombu wynosi " + str(pole) + ", a obwód rombu wynosi " + str(obwod) + ".")
+
+# koło 
+# TODO
+
+import math
+r = 7
+math.pi
+
+pole = math.pi * r ** 2
+obwod = 2 * math.pi * r
+
+print("Pole koła wynosi " + str(pole) + ", a obwód koła wynosi " + str(obwod) + ".")
+
+
+# kwadrat
+# TODO
+
+# trapez
+# TODO
