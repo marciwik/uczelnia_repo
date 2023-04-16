@@ -12,7 +12,6 @@ obwod = a + b + c
 print("Pole trojkata wynosi " + str(pole) + ", a obwód trojkata wynosi " + str(obwod) + ".")
 
 # romb
-# TODO
 
 a = 5
 h = 3
@@ -22,8 +21,7 @@ obwod = 4 * a
 
 print("Pole rombu wynosi " + str(pole) + ", a obwód rombu wynosi " + str(obwod) + ".")
 
-# koło 
-# TODO
+# koło
 
 r = 7
 math.pi
@@ -34,7 +32,6 @@ obwod = 2 * math.pi * r
 print("Pole koła wynosi " + str(pole) + ", a obwód koła wynosi " + str(obwod) + ".")
 
 # kwadrat
-# TODO
 
 a = 9
 
@@ -44,7 +41,6 @@ obwod = 4 * a
 print("Pole kwadratu wynosi " + str(pole) + ", a obwód kwadratu wynosi " + str(obwod) + ".")
 
 # trapez
-# TODO
 
 a = 12
 b = 7
