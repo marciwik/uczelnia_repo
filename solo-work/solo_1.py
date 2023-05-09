@@ -10,15 +10,17 @@ student = input("Wpisz swoje imię: ")
 print("Hello {}!".format(student))
 
 # zadanie 1.3
+
 studenci = ["Marta", "Jola", "Ania", "Ola", "Stella"]
 liczba_studentow = len(studenci)
 print("Liczba studentów:", liczba_studentow)
 
 # zadanie 1.4
+
 studenci = ["Marta", "Jola", "Ania", "Ola", "Stella"]
 
 for i in studenci:
-    print("Hello, " + i + "!")
+    print("Hello " + i)
 
 # zadanie 1.5
 
@@ -43,7 +45,7 @@ studenci = ["Jolanta Krawczyk", "Anna Beznazwiska", "Marta Ztrzemeszna", "Stella
 
 studenci_sorted = sorted(studenci)
 
-print("Alfabetyczna lista studentow wynosi: ")
+print("Alfabetyczna lista studentow wynosi (imię): ")
 for i in studenci_sorted:
     print(i)
 
