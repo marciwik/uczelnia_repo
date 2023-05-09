@@ -56,3 +56,11 @@ studenci_sorted_n = sorted(studenci, key=lambda x: x.split()[-1])
 print("Alfabetyczna lista studentow (nazwisko): ")
 for i in studenci_sorted_n:
     print(i)
+
+# zadanie 1.9
+
+studenci = ["Jolanta Krawczyk", "Anna Beznazwiska", "Marta Ztrzemeszna", "Stella Winx", "Aleksandra Sześć", "Marta Nadiowa", "Kacper Nierudy", "Manuela Ichtroje", "Adrian Bugs", "Magdalena Konkursowiczka", "Wiktoria Nieborak", "Paulina Urzędas", "Szymon Naprawcertyfikat"]
+
+liczba_n = sum(1 for student in studenci if student.split()[-1].startswith('N'))
+
+print("Liczba studentów z nazwiskiem na literę N wynosi: ", liczba_n)
