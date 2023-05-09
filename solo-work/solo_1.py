@@ -19,3 +19,12 @@ studenci = ["Marta", "Jola", "Ania", "Ola", "Stella"]
 
 for i in studenci:
     print("Hello, " + i + "!")
+
+# zadanie 1.5
+
+liczba = 6
+potega = 8
+
+wynik = liczba ** potega
+
+print("Wynik wynosi: {}".format(wynik))
